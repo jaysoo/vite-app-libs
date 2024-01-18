@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@vitewksp/rlib1": ["rlib1/src/index.ts"],
+      "@vitewksp/rlib2": ["rlib2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
