@@ -1,6 +1,7 @@
-# React app with Vite, and two non-buildable libs
+```shell
+yarn
+nx run-many -t=build
+```
 
-1. Install dependencies: `yarn`
-2. Build the app: `nx build hello`
 
-App builds successfully. The two libs it depends on are not built.
+This will fail due to build not being valid for rlib1 and rlib2.
